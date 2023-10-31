@@ -1,0 +1,121 @@
+{
+  
+    "GlobalConfiguration": {
+      "BaseUrl": "https://localhost:7283"
+    },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/Author",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/Author",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/Author/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamPathTemplate": "/api/Author/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/Author/{id}",
+      "UpstreamHttpMethod": [ "Post", "Put" ],
+      "DownstreamPathTemplate": "/api/Author/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/Books",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/Books",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/Books/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamPathTemplate": "/api/Books/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/Books/{id}",
+      "UpstreamHttpMethod": [ "Post", "Put" ],
+      "DownstreamPathTemplate": "/api/Books/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/Category",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/Category",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/Category/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamPathTemplate": "/api/Category/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/Category/{id}",
+      "UpstreamHttpMethod": [ "Post", "Put" ],
+      "DownstreamPathTemplate": "/api/Category/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    }
+
+
+
+  ]
+  
+}
+  
