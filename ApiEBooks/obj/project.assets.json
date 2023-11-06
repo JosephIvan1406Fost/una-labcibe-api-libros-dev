@@ -469,19 +469,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Estudiantes UNA\\.nuget\\packages\\": {}
+    "C:\\Users\\LENOVO I5\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Estudiantes UNA\\source\\repos\\ApiEBooks\\ApiEBooks\\ApiEBooks.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO I5\\Source\\Repos\\una-labcibe-api-libros-dev\\ApiEBooks\\ApiEBooks.csproj",
       "projectName": "ApiEBooks",
-      "projectPath": "C:\\Users\\Estudiantes UNA\\source\\repos\\ApiEBooks\\ApiEBooks\\ApiEBooks.csproj",
-      "packagesPath": "C:\\Users\\Estudiantes UNA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Estudiantes UNA\\source\\repos\\ApiEBooks\\ApiEBooks\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO I5\\Source\\Repos\\una-labcibe-api-libros-dev\\ApiEBooks\\ApiEBooks.csproj",
+      "packagesPath": "C:\\Users\\LENOVO I5\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO I5\\Source\\Repos\\una-labcibe-api-libros-dev\\ApiEBooks\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Estudiantes UNA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO I5\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -535,7 +535,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
